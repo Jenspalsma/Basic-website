@@ -1,0 +1,68 @@
+#general_info {
+	background-color: yellow;
+}
+
+body {
+	background-color: #EEEEEE;
+}
+#container {
+	background-color: none
+;
+}
+
+#nav {
+	padding: 10px;
+}
+h1 {
+    text-align: center;
+    color: red; }
+
+h2 {
+	text-align: center;
+    color: red; }
+
+#page
+{
+  display: block; 
+  height:auto;
+  position: relative; 
+  overflow: hidden; 
+  width: 670px;
+}
+
+#footer {
+	clear: both;
+  text-align: center;
+  padding: 2rem;
+}
+
+.alp-img {
+  border-radius: 6px;
+  transition: .3s ease-out;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: auto;
+}
+
+.alp-img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 12px 24px rgba(0,0,0,.5);
+}
+
+#content {
+  width: 70vw;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.headline {
+  transform: skew(#{$rotationAmt}deg) rotate(#{$rotationAmt}deg);
+  grid-area: text;
+  font-family: 'Sarpanch', sans-serif;
+  font-size: 20vmin;
+  margin: 0;
+  padding: 30px;
+  color: #1d9099;
+  text-shadow: 1vmin 1vmin 0 #E79C10, -1vmin -1vmin 0 #D53A33;
+}
